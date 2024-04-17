@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatsune Miku - Music Library</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Hatsune Miku</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown"> 
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Music Library 
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+                        <a class="dropdown-item" href="music.html">Category 1</a> 
+                        <a class="dropdown-item" href="#">Category 2</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fan_creations.html">Fan Creations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="virtual_events.html">Virtual Events</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="community_forum.html">Community Forum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Music Library Content -->
+<section class="music-library">
+    <div class="container">
+        <h2>Music Library</h2>
+        <p>Explore a collection of songs featuring Hatsune Miku and other Vocaloids.</p>
+        <div class="row">
+            <!-- Album Section -->
+<section class="album-section">
+    <div class="container">
+        <div class="row">
+        
+            <!-- Album 1 -->
+<div class="col-md-4">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Album 1</h5>
+            <p class="card-text">Description of Album 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <video controls class="embed-responsive-item">
+                <source src="videos/World_is_Mine.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+            <!-- Album 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Album 2</h5>
+                        <p class="card-text">Description of Album 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <video controls class="embed-responsive-item">
+                            <source src="videos\Resonate_x_ECHO.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        </div>
+                    </div>
+                </div>
+            <!-- Album 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Album 3</h5>
+                        <p class="card-text">Description of Album 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <video controls class="embed-responsive-item">
+                            <source src="videos\GETCHA!.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Album 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Album 4</h5>
+                        <p class="card-text">Description of Album 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <video controls class="embed-responsive-item">
+                            <source src="videos\Love_Love_Nightmare.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <!-- Album 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Album 5</h5>
+                        <p class="card-text">Description of Album 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <video controls class="embed-responsive-item">
+                            <source src="videos\Electric_Angel.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Album 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Album 6</h5>
+                        <p class="card-text">Description of Album 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <video controls class="embed-responsive-item">
+                            <source src="videos\WHAT_YOU_WANT!.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- See More Button -->
+<div class="container button-container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <a href="#" class="btn btn-primary" id="see-more-btn">See More</a>
+        </div>
+    </div>
+</div>
+<section id="more-albums" class="album-section" style="display: none;">
+    <div class="container">
+        <div class="row">
+            <!-- Album 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Album 7</h5>
+                        <p class="card-text">Description of Album 7. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <video controls class="embed-responsive-item">
+                            <source src="videos\ガッチュー！.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <!-- Album 5 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Album 8</h5>
+                        <p class="card-text">Description of Album 8. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <video controls class="embed-responsive-item">
+                            <source src="videos\ラストメッセージ.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <!-- Album 6 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Album 9</h5>
+                        <p class="card-text">Description of Album 9. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <video controls class="embed-responsive-item">
+                            <source src="videos\初音ミク＆鏡音リンのプロレス試合曲『リングの熾天使』実況はKAITO.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Songs Section -->
+<section class="songs-section">
+    <div class="container">
+        <h2>Featured Songs</h2>
+        <div class="row">
+            <!-- Song 1 -->
+            <div class="col-md-4">
+                <div class="card song-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Song 1</h5>
+                        <p class="card-text">Description of Song 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Song 1 -->
+            <div class="col-md-4">
+                <div class="card song-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Song 2</h5>
+                        <p class="card-text">Description of Song 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Song 1 -->
+            <div class="col-md-4">
+                <div class="card song-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Song 3</h5>
+                        <p class="card-text">Description of Song 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Song 1 -->
+            <div class="col-md-4">
+                <div class="card song-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Song 4</h5>
+                        <p class="card-text">Description of Song 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Song 1 -->
+            <div class="col-md-4">
+                <div class="card song-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Song 5</h5>
+                        <p class="card-text">Description of Song 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Song 1 -->
+            <div class="col-md-4">
+                <div class="card song-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Song 6</h5>
+                        <p class="card-text">Description of Song 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.getElementById('see-more-btn').addEventListener('click', function(event) {
+        event.preventDefault();
+        document.getElementById('more-albums').style.display = 'block';
+        this.style.display = 'none';
+    });
+</script>
+
+</body>
+
+    <!-- Bootstrap Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">© 2024 Ibeth Fernandez. | <a href="#">Terms of Use</a> |
+                <a href="#">Privacy Policy</a></span>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+<!-- DEVELOPER: Ibeth Fernandez, IS117-004, Spring 2024 ->

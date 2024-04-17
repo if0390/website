@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatsune Miku Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Hatsune Miku</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown"> 
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Music Library 
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+                        <a class="dropdown-item" href="page\music.html">Category 1</a> 
+                        <a class="dropdown-item" href="#">Category 2</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page\fan_creations.html">Fan Creations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page\virtual_events.html">Virtual Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page\community_forum.html">Community Forum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page\contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="heroText">
+            <h1>Welcome to Hatsune Miku's World!</h1>
+            <p>Explore the music, art, and community surrounding our favorite virtual pop idol.</p>
+        </div>
+        <div class="videoWrapper">
+            <video autoplay loop muted class="custom-video" poster="images/miku_fish.jpg">
+                <source src="videos/miku_vid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="overlay"></div>
+    </section>
+
+    <!-- Calendar Section -->
+    <div class="events parallax-three pad" id="events">
+        <div class="container">
+            
+            <div class="default-heading-shadow">
+                
+                <h2>Coming Events</h2>
+            </div>
+           
+            <div class="events-element">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="events-item ">
+                            <div class="figure">
+                                <div class="event-date">
+                                    24 <span class="emonth">Jan</span>
+                                    <div class="clearfix"></div>
+                                    <span class="etime">06:30 pm</span>
+                                </div>
+                                <span class="event-location"><i class="fa fa-map-marker"></i> Osaka</span>
+                                <img class="img-responsive" src="images/concert_1.jpg" alt="" />
+                                <div class="img-hover">
+                                    <a href="page\virtual_events.html"><i class="fa fa-play-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="event-info">
+                                <h3>Hatsune Miku Magical Mirai x 10th Anniversary</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, sed doconsect etur eiusmod teme et dolore magna aliqua... <a href="page\virtual_events.html">more</a></p>
+                                <button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Book Ticket</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="events-item ">
+                            <div class="figure">
+                                <div class="event-date">
+                                    31 <span class="emonth">Jan</span>
+                                    <div class="clearfix"></div>
+                                    <span class="etime">09:45 pm</span>
+                                </div>
+                                <span class="event-location"><i class="fa fa-map-marker"></i> Romania</span>
+                                <img class="img-responsive" src="images\concert_2.jpg" alt="" />
+                                <div class="img-hover">
+                                    <a href="page\virtual_events.html"><i class="fa fa-play-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="event-info">
+                                <h3>Hatsune Miku EXPO 10th anniversary</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, sed doconsect etur eiusmod teme et dolore magna aliqua... <a href="page\virtual_events.html">more</a></p>
+                                <button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Book Ticket</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="events-item ">
+                            <div class="figure">
+                                <div class="event-date">
+                                    14 <span class="emonth">Feb</span>
+                                    <div class="clearfix"></div>
+                                    <span class="etime">10:30 am</span>
+                                </div>
+                                <span class="event-location"><i class="fa fa-map-marker"></i> Tokyo</span>
+                                <img class="img-responsive" src="images\concert_3.jpg" alt="" />
+                                <div class="img-hover">
+                                    <a href="page\virtual_events.html"><i class="fa fa-play-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="event-info">
+                                <h3>Hatsune Miku Japan Tour</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, sed doconsect etur eiusmod teme et dolore magna aliqua... <a href="page\virtual_events.html">more</a></p>
+                                <button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Book Ticket</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="events-item ">
+                            <div class="figure">
+                                <div class="event-date">
+                                    31 <span class="emonth">Dec</span>
+                                    <div class="clearfix"></div>
+                                    <span class="etime">10:00 pm</span>
+                                </div>
+                                <span class="event-location"><i class="fa fa-map-marker"></i> Hokkaido</span>
+                                <img class="img-responsive" src="images\concert_4.jpg" alt="" />
+                                <div class="img-hover">
+                                    <a href="page\virtual_events.html"><i class="fa fa-play-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="event-info">
+                                <h3>Snow Miku </h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, sed doconsect etur eiusmod teme et dolore magna aliqua... <a href="page\virtual_events.html">more</a></p>
+                                <button href="#bookTicket" class="btn btn-lg btn-theme" data-toggle="modal" >Book Ticket</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Featured Music Section -->
+<section class="featured-music">
+    <div class="container">
+        <h2>Featured Music</h2>
+        <div class="video-container">
+            <video id="featuredVideo" class="d-block w-100" controls loop>
+                <source src="videos/music1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video-thumbnails">
+            <img src="images/music1_thumb.jpg" alt="Thumbnail 1" onclick="changeVideo('videos/music1.mp4', 'images/music1_thumb.jpg')">
+            <img src="images/music2_thumb.jpg" alt="Thumbnail 2" onclick="changeVideo('videos/music2.mp4', 'images/music2_thumb.jpg')">
+            <img src="images/music3_thumb.jpg" alt="Thumbnail 3" onclick="changeVideo('videos/music3.mp4', 'images/music3_thumb.jpg')">
+            <img src="images/music4_thumb.jpg" alt="Thumbnail 4" onclick="changeVideo('videos/music4.mp4', 'images/music4_thumb.jpg')">
+            <img src="images/music5_thumb.jpg" alt="Thumbnail 5" onclick="changeVideo('videos/music5.mp4', 'images/music5_thumb.jpg')">
+        </div>
+    </div>
+</section>
+
+<script>
+    function changeVideo(videoSrc, posterSrc) {
+        var video = document.getElementById('featuredVideo');
+        video.src = videoSrc;
+        video.poster = posterSrc;
+        video.load();
+        video.play();
+    }
+</script>
+
+
+
+
+<!-- featured abbum -->
+<div class="featured pad" id="featuredalbum">
+    <div class="container">
+        <div class="default-heading">
+            <h2>Featured Creations</h2>
+        </div>
+        <div class="featured-element">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="featured-item ">
+                        <div class="figure">
+                            <img class="img-responsive" src="images\fan_creation1.png" alt="" />
+                        </div>
+                        <div class="featured-item-info">
+                            <h4>By MelodyMixer39</h4>
+                            <hr />
+                            <p>1024+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Love</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="featured-item ">
+                        <div class="figure">
+                            <img class="img-responsive" src="images\fan_creation2.jpg" alt="" />
+                        </div>
+                        <div class="featured-item-info">
+                            <h4>By VirtualVocalist88</h4>
+                            <hr />
+                            <p>1024+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Love</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="featured-item ">
+                        <div class="figure">
+                            <img class="img-responsive" src="images\fan_creation3.jpg" alt="" />
+                        </div>
+                        <div class="featured-item-info">
+                            <h4>By NeonSymphony22</h4>
+                            <hr />
+                            <p>1024+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Love</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="featured-item ">
+                        <div class="figure">
+                            <img class="img-responsive" src="images\fan_creation4.jpg" alt="" />
+                        </div>
+                        <div class="featured-item-info">
+                            <h4>By PixelPerformer57</h4>
+                            <hr />
+                            <p>1024+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Love</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="featured-item ">
+                        <div class="figure">
+                            <img class="img-responsive" src="images\fan_creation5.png" alt="" />
+                        </div>
+                        <div class="featured-item-info">
+                            <h4>By EchoDiviner91</h4>
+                            <hr />
+                            <p>1024+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Love</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="featured-item ">
+                        <div class="figure">
+                            <img class="img-responsive" src="images\fan_creation6.jpg" alt="" />
+                        </div>
+                        <div class="featured-item-info">
+                            <h4>By SerenadeSculptor74</h4>
+                            <hr />
+                            <p>1024+ <span class="label label-theme">Like</span> &nbsp;&nbsp; 825+ <span class="label label-theme">Love</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- "See More" button -->
+        <div class="text-center mt-4"> 
+            <a href="page/fan_creations.html" class="btn btn-primary">See More</a>
+        </div>
+</section>
+
+
+    <!-- Bootstrap Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">© 2024 Ibeth Fernadez. | <a href="#">Terms of Use</a> |
+                <a href="#">Privacy Policy</a></span>
+        </div>
+    </footer>
+
+</body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>
+<!-- DEVELOPER: Ibeth Fernandez, IS117-004, Spring 2024 ->

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatsune Miku - Community Forum</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Hatsune Miku</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown"> 
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Music Library 
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+                        <a class="dropdown-item" href="music.html">Category 1</a> 
+                        <a class="dropdown-item" href="#">Category 2</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fan_creations.html">Fan Creations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="virtual_events.html">Virtual Events</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="community_forum.html">Community Forum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="forum">
+            <div class="container">
+                <h1>Welcome to the Community Forum</h1>
+                <p>Discuss anything related to Hatsune Miku with other fans!</p>
+                <h2>Forum Categories</h2>
+                <ul>
+                    <li><a href="#">General Discussion</a></li>
+                    <li><a href="#">Fan Art Showcase</a></li>
+                    <li><a href="#">Music Recommendations</a></li>
+                </ul>
+
+                <h2>Recent Threads</h2>
+                <ul>
+                    <li><a href="#">Thread 1</a></li>
+                    <li><a href="#">Thread 2</a></li>
+                    <li><a href="#">Thread 3</a></li>
+                </ul>
+
+                <h2>Create New Thread</h2>
+                <form action="#" method="POST">
+                    <label for="thread-title">Thread Title:</label>
+                    <input type="text" id="thread-title" name="thread-title" required>
+
+                    <label for="thread-content">Thread Content:</label>
+                    <textarea id="thread-content" name="thread-content" rows="4" required></textarea>
+
+                    <button type="submit">Create Thread</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">© 2024 Ibeth Fernandez. | <a href="#">Terms of Use</a> |
+                <a href="#">Privacy Policy</a></span>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+<!-- DEVELOPER: Ibeth Fernandez, IS117-004, Spring 2024 ->
